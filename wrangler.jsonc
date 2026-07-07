@@ -12,8 +12,8 @@
   "d1_databases": [
     {
       "binding": "DB",
-      "database_name": "speednet-proxy-db",
-      "database_id": "placeholder-cloudflare-will-replace-this"
+      "database_name": "speednet-proxy",
+      "database_id": "32586c4b-336c-40bd-ae67-22d89c265bd1"
     }
   ],
   "vars": {
