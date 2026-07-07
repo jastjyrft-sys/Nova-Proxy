@@ -1,19 +1,19 @@
 {
   // ───────────────────────────────────────────────────────────────────────────
-  //  SpeedNet Proxy — Cloudflare Worker config (Deploy-to-Cloudflare ready)
+  //  Nova Proxy — Cloudflare Worker config (Deploy-to-Cloudflare ready)
   //  Cloudflare reads this, auto-creates the D1 database, binds it, and deploys
   //  the Worker — no terminal. The Worker creates its own D1 tables on first run.
   //  After deploy, open the Worker URL → the /install wizard sets the admin password.
   // ───────────────────────────────────────────────────────────────────────────
-  "name": "speednet-proxy",
+  "name": "nova-proxy",
   "main": "worker.js",
   "compatibility_date": "2024-09-23",
   "compatibility_flags": ["nodejs_compat"],
   "d1_databases": [
     {
       "binding": "DB",
-      "database_name": "speednet-proxy",
-      "database_id": "32586c4b-336c-40bd-ae67-22d89c265bd1"
+      "database_name": "nova-proxy-db",
+      "database_id": "placeholder-cloudflare-will-replace-this"
     }
   ],
   "vars": {
